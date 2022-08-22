@@ -30,6 +30,13 @@ EOF
 }
 ```
 
+## Requirements
+
+To use it with terraform provider AWS there are several required options:
+
+- Terraform provider AWS https://github.com/hashicorp/terraform-provider-aws release version >= 4.25.0
+- Terraform provider elasticsearch https://github.com/phillbaker/terraform-provider-elasticsearch release vesion >= 2.0.4
+
 ## Preparing
 
 Add "[" in the begginning of exported .ndjson and "]" at the end of file to match json array format and save this file as source.json.
